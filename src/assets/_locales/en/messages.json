@@ -1,0 +1,38 @@
+{
+  "extDes": {
+    "message": "Quickly save bookmarks to the root directory"
+  },
+  "popupName": {
+    "message": "Name"
+  },
+  "popupUrl": {
+    "message": "URL"
+  },
+  "popupAdded": {
+    "message": "Bookmark added"
+  },
+  "popupModify": {
+    "message": "Edit bookmark"
+  },
+  "popupSave": {
+    "message": "Save"
+  },
+  "popupRemove": {
+    "message": "Remove"
+  },
+  "popupAlready": {
+    "message": "The bookmark has been saved to the root directory"
+  },
+  "popupMove": {
+    "message": "Click Save to move the bookmark to the root directory"
+  },
+  "popupOnTop": {
+    "message": "Move the bookmark to the top of the root directory"
+  },
+  "popupErrorMove": {
+    "message": "Unable to move bookmark"
+  },
+  "popupErrorUpdate": {
+    "message": "Unable to update bookmark"
+  }
+}

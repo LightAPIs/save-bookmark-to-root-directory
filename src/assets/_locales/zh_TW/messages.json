@@ -1,0 +1,38 @@
+{
+  "extDes": {
+    "message": "快速儲存書籤至根目錄"
+  },
+  "popupName": {
+    "message": "名稱"
+  },
+  "popupUrl": {
+    "message": "網址"
+  },
+  "popupAdded": {
+    "message": "已新增書籤"
+  },
+  "popupModify": {
+    "message": "編輯書籤"
+  },
+  "popupSave": {
+    "message": "儲存"
+  },
+  "popupRemove": {
+    "message": "移除"
+  },
+  "popupAlready": {
+    "message": "已經將書籤儲存至根目錄下"
+  },
+  "popupMove": {
+    "message": "點擊儲存將書籤移動至根目錄下"
+  },
+  "popupOnTop": {
+    "message": "將書籤移至根目錄的最前面"
+  },
+  "popupErrorMove": {
+    "message": "無法移動書籤"
+  },
+  "popupErrorUpdate": {
+    "message": "無法更新書籤"
+  }
+}
