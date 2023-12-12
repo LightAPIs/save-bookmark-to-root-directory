@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Save bookmark to root directory (Dev)",
   "description": "__MSG_extDes__",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "pana",
   "homepage_url": "https://github.com/LightAPIs/save-bookmark-to-root-directory",
   "default_locale": "en",
@@ -28,5 +28,9 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["bookmarks", "storage", "activeTab"]
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "activeTab"
+  ]
 }
