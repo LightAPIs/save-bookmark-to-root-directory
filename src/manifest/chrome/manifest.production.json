@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Save bookmark to root directory",
   "description": "__MSG_extDes__",
   "version": "1.0.0",
@@ -12,7 +12,7 @@
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icons/icon_16.png",
       "32": "icons/icon_32.png",
@@ -22,6 +22,5 @@
     "default_popup": "popup.html"
   },
   "permissions": ["bookmarks", "storage", "activeTab"],
-  "content_security_policy": "script-src 'self'; object-src 'self'",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJyjgAcaFX85nlYH81pbp5ca/o0YjBvWtq61KdwQeXu2k74j+bdzTKEyxErRvgEdnH2L8ZQS1NeCyOWv2uZxEb/UxVRR6c3Y/hZiMbE3Wk4mROFzcwkh45+pUiKVQqodypyywR6B9miBQdZk1B6UNLqGlRjeIrC0uDLZ3j++e/Q6uboLCG6KXq2dOporqoYxaCa44cYsoRxZnb5STY1xlse6TFBT2tNsfeQjLHU8OdTx8AjAI8gQbli6IwrTm94slJCVLOf0ryNc5OAPJCwdqD3nrtrZjFHSH3zv04A6SMZD1e26xEAkrwcNFlDbe9w2FuJKqDpeoVriQT1wee0QRwIDAQAB"
 }

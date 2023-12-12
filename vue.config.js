@@ -61,6 +61,8 @@ module.exports = {
           filename: `${packageInfo.name}_v${packageInfo.version}.zip`,
         })
       );
+    } else {
+      config.devtool = 'cheap-module-source-map';
     }
 
     // 关闭 webpack 的性能提示
