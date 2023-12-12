@@ -113,7 +113,7 @@ chrome.storage.local.get(['ontop'], result => {
 });
 
 export default {
-  name: 'popup-app',
+  name: 'PopupApp',
   data() {
     return dataInfo;
   },
