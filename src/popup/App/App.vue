@@ -23,12 +23,6 @@
             </a-col>
           </a-row>
           <a-row class="aligh-items-center">
-            <a-switch :checked="ontop" class="item-switch" @change="onChange"></a-switch>
-            <span class="item-text">
-              {{ $ui.get('popupOnTop') }}
-            </span>
-          </a-row>
-          <a-row class="aligh-items-center">
             <div class="tips">
               {{ tip }}
             </div>
@@ -134,12 +128,6 @@ export default {
     },
   },
   methods: {
-    onChange(checked) {
-      this.ontop = checked;
-      chrome.storage.local.set({
-        ontop: checked,
-      });
-    },
     saveBookmark() {
       chrome.bookmarks.update(
         this.id,
@@ -182,7 +170,7 @@ export default {
 #popup-app {
   overflow: hidden;
   width: 500px;
-  height: 250px;
+  height: 210px;
 
   .container {
     margin: 10px;
@@ -207,12 +195,6 @@ export default {
   .tips {
     margin-left: 80px;
     color: #999999;
-  }
-  .item-switch {
-    margin-left: 15px;
-  }
-  .item-text {
-    margin-left: 20px;
   }
 }
 

@@ -21,6 +21,13 @@
     },
     "default_popup": "popup.html"
   },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
   "permissions": ["bookmarks", "storage", "activeTab"],
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJyjgAcaFX85nlYH81pbp5ca/o0YjBvWtq61KdwQeXu2k74j+bdzTKEyxErRvgEdnH2L8ZQS1NeCyOWv2uZxEb/UxVRR6c3Y/hZiMbE3Wk4mROFzcwkh45+pUiKVQqodypyywR6B9miBQdZk1B6UNLqGlRjeIrC0uDLZ3j++e/Q6uboLCG6KXq2dOporqoYxaCa44cYsoRxZnb5STY1xlse6TFBT2tNsfeQjLHU8OdTx8AjAI8gQbli6IwrTm94slJCVLOf0ryNc5OAPJCwdqD3nrtrZjFHSH3zv04A6SMZD1e26xEAkrwcNFlDbe9w2FuJKqDpeoVriQT1wee0QRwIDAQAB"
 }

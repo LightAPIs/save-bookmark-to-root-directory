@@ -26,13 +26,16 @@
   "popupMove": {
     "message": "点击保存将书签移动至根目录下"
   },
-  "popupOnTop": {
-    "message": "将书签移至根目录的最前面"
-  },
   "popupErrorMove": {
     "message": "无法移动书签"
   },
   "popupErrorUpdate": {
     "message": "无法更新书签"
+  },
+  "optionsOnTop": {
+    "message": "将书签保存至根目录的最前面"
+  },
+  "optionsDirectSave": {
+    "message": "点击扩展程序图标后直接保存书签(不会弹出编辑窗口)"
   }
 }

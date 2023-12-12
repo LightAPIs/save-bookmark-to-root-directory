@@ -26,13 +26,16 @@
   "popupMove": {
     "message": "點選儲存將書籤移動至根目錄下"
   },
-  "popupOnTop": {
-    "message": "將書籤移至根目錄的最前面"
-  },
   "popupErrorMove": {
     "message": "無法移動書籤"
   },
   "popupErrorUpdate": {
     "message": "無法更新書籤"
+  },
+  "optionsOnTop": {
+    "message": "將書籤儲存至根目錄的最前面"
+  },
+  "optionsDirectSave": {
+    "message": "點選擴充套件圖示後直接儲存書籤(不會彈出編輯視窗)"
   }
 }

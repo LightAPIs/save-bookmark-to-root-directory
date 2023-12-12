@@ -8,7 +8,7 @@ const productionMode = process.env.NODE_ENV === 'production';
 // Generate pages object
 const pages = {};
 
-const chromeName = ['popup'];
+const chromeName = ['popup', 'options'];
 
 chromeName.forEach(name => {
   pages[name] = {
